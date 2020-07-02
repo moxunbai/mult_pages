@@ -1,0 +1,9 @@
+// ---- color ----
+$primary-color: #7f0;
+$btn-gradient-bg: linear-gradient(315deg,rgba(111,225,122,1) 0%,rgba(59,188,249,1) 100%)  ;
+$btn-gradient-active-bg: linear-gradient(315deg, darken(#043d6a, 10%) 0%, darken(#3da6fc, 10%) 100%)  ;
+@import '~@nutui/nutui/dist/styles/index.scss';
+@import '~@nutui/nutui/dist/packages/button/button.scss';
+a{
+  background: #333;
+}
